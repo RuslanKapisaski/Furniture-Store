@@ -38,6 +38,7 @@
   - [x] Add database
   - [x] Add user model
   - [x] Add user service
+  - [x] Add first error message function in utils
   - [] Install bcrypt
   - [] Hash password before saving into db
 
