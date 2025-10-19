@@ -28,3 +28,9 @@
 [x] Create furniture controller
 
 ---
+
+### Authentication and Authorization
+
+- [x] Create users controller
+
+---
