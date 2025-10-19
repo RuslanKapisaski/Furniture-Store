@@ -23,4 +23,4 @@
 ### Setup REST API
 
 [x] Initialize project & add .gitignore
-[] Install and setup express
+[x] Install and setup express
