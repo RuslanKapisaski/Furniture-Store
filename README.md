@@ -59,7 +59,7 @@
 ### Furniture endpoints
 
 - [x] Add furniture model
-- [] Add furniture service
+- [x] Add furniture service
 - [] Add furniture endpoint
 
 ---
