@@ -41,5 +41,9 @@
   - [x] Add first error message function in utils
   - [x] Install bcrypt
   - [x] Hash password before saving into db
+- [x] Login user
+  - [x] Add login endpoint
+  - [x] Verify credentials
+  - [] Create token
 
 ---

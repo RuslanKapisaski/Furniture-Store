@@ -18,4 +18,15 @@ userController.post("/register", async (req, res) => {
   res.end();
 });
 
+userController.post("/login", async (req, res) => {
+  const { email, password } = req.data;
+
+  try {
+    const user = await userService.login({ email, password });
+    //  res.status(201).json({});
+  } catch (err) {
+    const errorMessage = getErrorMessage(err);
+    res.status(400).end();
+  }
+});
 export default userController;
