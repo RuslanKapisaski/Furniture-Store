@@ -7,3 +7,8 @@
 [x] Create repository
 [x] Initial folder structure
 [x] Add client and install dependecies
+
+### Startup clint
+
+[x] Install vite (local dev server)
+[x] Setup vite
