@@ -44,6 +44,8 @@
 - [x] Login user
   - [x] Add login endpoint
   - [x] Verify credentials
-  - [] Create token
+  - [x] Create and return token
+    - [x] Use environment variable for the secret ('npm i dotenv')
+    - [x] Install json web token
 
 ---
