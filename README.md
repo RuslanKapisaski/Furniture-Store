@@ -25,3 +25,6 @@
 [x] Initialize project & add .gitignore
 [x] Install and setup express
 [x] Add cors
+[x] Create furniture controller
+
+---
