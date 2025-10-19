@@ -32,5 +32,13 @@
 ### Authentication and Authorization
 
 - [x] Create users controller
+- [x] Add json parser
+- [x] Register user
+  - [x] Add register endpoint
+  - [x] Add database
+  - [] Add user model
+  - [] Add user service
+  - [] Install bcrypt
+  - [] Hash password before saving into db
 
 ---
