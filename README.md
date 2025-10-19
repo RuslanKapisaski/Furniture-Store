@@ -55,3 +55,11 @@
 - [x] Auto login after register
 
 ---
+
+### Furniture endpoints
+
+- [x] Add furniture model
+- [] Add furniture service
+- [] Add furniture endpoint
+
+---
