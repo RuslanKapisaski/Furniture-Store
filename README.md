@@ -37,7 +37,7 @@
   - [x] Add register endpoint
   - [x] Add database
   - [x] Add user model
-  - [] Add user service
+  - [x] Add user service
   - [] Install bcrypt
   - [] Hash password before saving into db
 
