@@ -48,4 +48,8 @@
     - [x] Use environment variable for the secret ('npm i dotenv')
     - [x] Install json web token
 
+#### Bonus:
+
+- [x] Auto login after register
+
 ---

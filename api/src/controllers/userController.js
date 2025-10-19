@@ -9,7 +9,7 @@ userController.post("/register", async (req, res) => {
 
   try {
     const result = await userService.register(email, password);
-    res.status(201).end();
+    res.status(201).json(result);
   } catch (err) {
     const errorMessage = getErrorMessage(err);
     throw new Error(`Unsuccessful registration: ${errorMessage}`);
