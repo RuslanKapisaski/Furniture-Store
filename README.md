@@ -46,7 +46,9 @@
   - [x] Verify credentials
   - [x] Create and return token
     - [x] Use environment variable for the secret ('npm i dotenv')
-    - [x] Install json web token -[x] Logout
+    - [x] Install json web token
+- [x] Logout
+- [x] Auth middleware
 
 #### Bonus:
 
