@@ -28,4 +28,20 @@ furnitureController.post("/", async (req, res) => {
   }
 });
 
+furnitureController.put("/:furnitureId", async (req, res) => {
+  const furnitureId = req.params.furnitureId;
+  const furnitureData = req.body;
+
+  try {
+    const updatedFurniture = await furnitureService.update(
+      furnitureId,
+      furnitureData
+    );
+    res.json(updatedFurniture);
+  } catch (err) {
+    const errorMessage = getErrorMessage(err);
+    throw new Error(`Unable to edit: ${errorMessage}`);
+  }
+});
+
 export default furnitureController;

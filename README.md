@@ -64,5 +64,6 @@
 - [x] Create furniture details endpoint
 - [x] Create furniture update endpoint
   - [x] Add owner realtion to furniture model
+- [x] Create furniture edit endpoint
 
 ---
