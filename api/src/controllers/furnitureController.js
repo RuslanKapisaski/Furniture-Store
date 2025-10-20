@@ -35,7 +35,8 @@ furnitureController.put("/:furnitureId", async (req, res) => {
   try {
     const updatedFurniture = await furnitureService.update(
       furnitureId,
-      furnitureData
+      furnitureData,
+      { runValidators: true }
     );
     res.json(updatedFurniture);
   } catch (err) {
@@ -44,4 +45,14 @@ furnitureController.put("/:furnitureId", async (req, res) => {
   }
 });
 
+furnitureController.delete("/:furnitureId", async (req, res) => {
+  const furnitureId = req.params.furnitureId;
+  try {
+    const furnitureToBeDeleted = await furnitureService.delete(furnitureId);
+    res.json(furnitureToBeDeleted);
+  } catch (err) {
+    const errorMessage = getErrorMessage(err);
+    throw new Error(`Unable to delete: ${errorMessage}`);
+  }
+});
 export default furnitureController;
