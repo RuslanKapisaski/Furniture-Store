@@ -62,5 +62,7 @@
 - [x] Add furniture service
 - [x] Create furniture endpoint
 - [x] Create furniture details endpoint
+- [x] Create furniture update endpoint
+  - [x] Add owner realtion to furniture model
 
 ---

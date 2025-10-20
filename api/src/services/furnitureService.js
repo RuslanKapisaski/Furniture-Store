@@ -13,7 +13,10 @@ export default {
     return Furniture.findById(id);
   },
 
-  create(furnitureData) {
-    return Furniture.create(furnitureData);
+  create(furnitureData, ownerId) {
+    return Furniture.create({
+      ...furnitureData,
+      _ownerId: ownerId,
+    });
   },
 };
