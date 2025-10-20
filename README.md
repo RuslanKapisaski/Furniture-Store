@@ -60,6 +60,7 @@
 
 - [x] Add furniture model
 - [x] Add furniture service
-- [] Add furniture endpoint
+- [x] Create furniture endpoint
+- [x] Create furniture details endpoint
 
 ---
