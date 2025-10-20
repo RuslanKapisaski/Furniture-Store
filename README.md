@@ -65,5 +65,6 @@
 - [x] Create furniture update endpoint
   - [x] Add owner realtion to furniture model
 - [x] Create furniture edit endpoint
+- [x] Filter furniture by user id
 
 ---
